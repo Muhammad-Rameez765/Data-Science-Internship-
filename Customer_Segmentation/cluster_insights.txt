@@ -1,0 +1,13 @@
+Cluster 0 has the highest number of customers.
+
+Clusters 2 and 4 have fewer customers, meaning those groups are more specific/niche.
+
+
+Cluster Insights:
+| Clusters      | Description                                            |
+| ------------- | ------------------------------------------------------ |
+| **Cluster 1** | High income, high spending — “Luxury Shoppers”         |
+| **Cluster 2** | Low income, low spending — “Budget Customers”          |
+| **Cluster 3** | Average income, average spending — “Standard Shoppers” |
+| **Cluster 4** | High income, low spending — “Careful Spenders”         |
+| **Cluster 5** | Low income, high spending — “Impulsive Buyers”         |
