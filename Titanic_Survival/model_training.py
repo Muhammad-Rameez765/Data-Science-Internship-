@@ -1,0 +1,6 @@
+model = LogisticRegression(max_iter=200)
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+accuracy_score(y_test, y_pred)
+confusion_matrix(y_test, y_pred)
+classification_report(y_test, y_pred)

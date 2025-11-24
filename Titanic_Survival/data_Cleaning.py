@@ -1,0 +1,6 @@
+df.drop(['Name', 'PassengerId', 'Ticket', 'Cabin'], axis=1, inplace=True)
+df['Age'].fillna(df['Age'].median(), inplace=True)
+df['Embarked'].fillna(df['Embarked'].mode()[0], inplace=True)
+df['Sex'] = df['Sex'].map({'male':0, 'female':1})
+df['Embarked'] = df['Embarked'].map({'C':0, 'Q':1, 'S':2})
+sns.heatmap(df.corr(), annot=True)

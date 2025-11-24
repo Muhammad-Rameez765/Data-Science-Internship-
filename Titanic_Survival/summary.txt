@@ -1,0 +1,6 @@
+- The model used: **Logistic Regression**
+- Achieved accuracy: **78.3%**
+- Important factors affecting survival:
+  - **Gender** (Females had higher survival)
+  - **Passenger Class** (1st class had better survival)
+  - **Fare** (Higher fare linked with survival)
