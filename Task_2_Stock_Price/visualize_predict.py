@@ -1,8 +1,0 @@
-plt.figure(figsize=(12,6))
-plt.plot(y_test, label='Actual')
-plt.plot(y_pred, label='Predicted')
-plt.title('Stock Price Prediction')
-plt.xlabel('Days')
-plt.ylabel('Normalized Closing Price')
-plt.legend()
-plt.show()

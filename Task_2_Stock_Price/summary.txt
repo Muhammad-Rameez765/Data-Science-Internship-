@@ -1,9 +1,0 @@
-### What I have done in this project/ Summary
-
-| Step | Task                | Description                    |
-| ---- | ------------------- | ------------------------------ |
-| 1    | Load Data           | Import and clean stock data    |
-| 2    | Feature Engineering | Create lag-based sequences     |
-| 3    | Model               | LSTM Neural Network            |
-| 4    | Evaluation          | MSE, R², Plot predictions      |
-| 5    | Future Prediction   | Predict next-day closing price |
